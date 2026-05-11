@@ -1,0 +1,365 @@
+key.categories.movement
+key.jump
+key.sneak
+key.sprint
+key.left
+key.right
+key.back
+key.forward
+
+key.categories.gameplay
+key.attack
+key.pickItem
+key.use
+
+key.categories.inventory
+key.drop
+key.hotbar.1
+key.hotbar.2
+key.hotbar.3
+key.hotbar.4
+key.hotbar.5
+key.hotbar.6
+key.hotbar.7
+key.hotbar.8
+key.hotbar.9
+key.inventory
+key.swapHands
+
+key.categories.creative
+key.loadToolbarActivator
+key.saveToolbarActivator
+
+key.categories.multiplayer
+key.playerlist
+key.chat
+key.command
+
+key.categories.misc
+key.advancements
+key.debugScreen
+key.hideHUD
+key.spectatorOutlines
+key.narrator
+key.quit
+key.switchShader
+key.screenshot
+key.smoothCamera
+key.fullscreen
+key.togglePerspective
+
+Ancient Warfare Automation
+keybind.awAutomation.toggle_workbounds_render
+
+Ancient Warfare Core
+keybind.awCore.alt.item.use.1
+keybind.awCore.alt.item.use.2
+keybind.awCore.alt.item.use.3
+keybind.awCore.alt.item.use.4
+keybind.awCore.alt.item.use.5
+
+Ancient Warfare Vehicles
+keybind.vehicle.descend.aim.down
+keybind.vehicle.ascend.aim.up
+keybind.vehicle.mouse.aim
+keybind.vehicle.fire
+keybind.vehicle.forward
+keybind.vehicle.ammo.next
+keybind.vehicle.ammo.select
+keybind.vehicle.ammo.prev
+keybind.vehicle.reverse
+keybind.vehicle.left
+keybind.vehicle.right
+keybind.vehicle.turret.left
+keybind.vehicle.turret.right
+
+AncientSpellcraft
+key.ancientspellcraft.charm_bauble_activate
+key.ancientspellcraft.charm_ring_1_activate
+key.ancientspellcraft.charm_ring_2_activate
+key.ancientspellcraft.open_radial_spell_menu
+key.ancientspellcraft.key_warlock_cast
+
+AntiGhost
+key.reveal
+
+AstikorCarts
+key.astikorcarts.desc
+
+Baubles
+keybind.baublesinventory
+
+Block Drops Tweaker
+key.blockdropstweaker.reloadblockdrops
+key.blockdropstweaker.saveblockdrops
+
+Carbon Config Library
+key.carbon_config.dep
+key.carbon_config.key
+
+Carry On
+key.carry.desc
+
+Chunk Pregenerator
+Options Gui
+
+Classy Hats
+Hat Inventory
+
+CleanView
+key.toggleCleanView
+
+Client Tweaks
+key.clienttweaks.disable_step_assist
+key.clienttweaks.hide_offhand_item
+
+CosmeticArmorReworked
+cos.key.opencosarmorinventory
+
+Crafting Tweaks
+key.craftingtweaks.balance
+key.craftingtweaks.clear
+key.craftingtweaks.compressAll
+key.craftingtweaks.compressOne
+key.craftingtweaks.compressStack
+key.craftingtweaks.decompressAll
+key.craftingtweaks.decompressOne
+key.craftingtweaks.decompressStack
+key.craftingtweaks.force_clear
+key.craftingtweaks.refill_last
+key.craftingtweaks.refill_last_stack
+key.craftingtweaks.rotate
+key.craftingtweaks.spread
+key.craftingtweaks.toggleButtons
+key.craftingtweaks.rotate_counter_clockwise
+
+CraftingCraft
+key.craftingcraft.portable_crafting
+
+Davinci's Vessels
+key.davincis.align
+key.davincis.up
+key.davincis.brake
+key.davincis.down
+key.davincis.decompile
+key.davincis.shipinv
+
+Electroblob's Wizardry
+key.ebwizardry.next_spell
+key.ebwizardry.previous_spell
+key.ebwizardry.spell_1
+key.ebwizardry.spell_2
+key.ebwizardry.spell_3
+
+Extra Alchemy
+Toggle Magnetism Suppressor
+
+FancyMenu
+Reload Menu | CTRL + ALT + 
+Toggle Customization Overlay | CTRL + ALT + 
+
+Fish's Undead Rising
+key.mod_lavacow.down
+key.mod_lavacow.special
+
+Fishing Made Better
+key.reelIn
+key.reelOut
+
+Flare
+flare.key.open_tick_tracking_menu
+flare.key.start_client_sampling
+flare.key.start_sampling
+flare.key.stop_client_sampling
+flare.key.stop_sampling
+
+Had Enough Items
+key.hei.bookmarkToTop
+key.jei.bookmark
+key.hei.recipeBookmark
+key.hei.crafting
+key.jei.focusSearch
+key.jei.nextPage
+key.jei.previousPage
+key.jei.recipeBack
+key.jei.showRecipe
+key.jei.showUses
+key.hei.toggleBookmarkOverlay
+key.jei.toggleOverlay
+key.jei.toggleCheatMode
+key.jei.toggleEditMode
+key.hei.nextCategory
+key.hei.previousCategory
+
+Health and Hunger Tweaks
+key.openhealthbox
+key.usehealthkit
+
+HotSwap
+key.hotswap.rotateRowDown
+key.hotswap.rotateDown
+key.hotswap.rotateUp
+key.hotswap.rotateRowUp
+key.hotswap.rotate
+key.hotswap.rotateRow
+key.hotswap.swap
+
+Ice and Fire: RotN Edition
+key.dragon_change_view
+key.dragon_fireAttack
+key.dragon_down
+key.dragon_strike
+
+Inventory Tweaks
+invtweaks.key.sort
+
+Keyboard Wizard
+keywizard.keybind.openKeyboardWizard
+
+Minor Integrations and Additions
+key.music_player_gui
+key.music_player_next
+key.music_player_previous
+key.music_player_toggle
+
+Optifine
+gnetum.config.keyMapping
+of.key.zoom
+
+Quark
+quark.keybind.changeHotbar
+quark.emote.cheer
+quark.emote.clap
+quark.emote.dab
+quark.emote.dance
+quark.keybind.chestDropoff
+quark.keybind.dropoff
+quark.emote.exorcist
+quark.keybind.chestExtract
+quark.emote.facepalm
+quark.emote.headbang
+quark.emote.jet
+quark.keybind.lockBuilding
+quark.keybind.chestMerge
+quark.emote.no
+quark.emote.point
+quark.keybind.chestRestock
+quark.emote.salute
+quark.emote.shrug
+quark.keybind.chestSort
+quark.emote.tpose
+quark.emote.think
+quark.keybind.toggleAutojump
+quark.emote.wave
+quark.emote.weep
+quark.emote.yes
+quark.emote.zombie
+
+Rad Enchants
+key.radenchants.access_ender_chest
+key.radenchants.access_pocket
+key.radenchants.gallop
+key.radenchants.sockets_info
+key.radenchants.sockets_show
+
+Reliquary
+xreliquary.keybind.fortune_coin
+
+Scaling Health
+Difficulty Meter - Show
+Difficulty Meter - Show Always
+
+Simply Backpacks
+key.simplybackpacks.backpackopen.desc
+key.simplybackpacks.backpackpickup.desc
+
+Spartan Weaponry
+key.spartanweaponry.access_quiver
+
+Teams
+teamsmod.keyaccept.desc
+teamsmod.keyswitch.desc
+teamsmod.keycompass.desc
+teamsmod.keyhud.desc
+
+The Aether
+key.aether.accessory_menu
+
+Tool Belt
+key.toolbelt.slot
+key.toolbelt.open
+key.toolbelt.cycle.left
+key.toolbelt.cycle.right
+
+TrashSlot
+key.trashslot.deleteAll
+key.trashslot.delete
+key.trashslot.toggle
+
+Trinkets and Baubles
+key.xat.trinket_arcing_attack.desc
+key.xat.aux_key.desc
+key.xat.trinket_target.desc
+key.xat.trinket_toggle_effect.desc
+key.xat.trinket_ender_crown.desc
+key.xat.magnet_toggle_effect.desc
+key.xat.race_ability.desc
+key.xat.trinket_gui.desc
+
+Universal Tweaks
+keybind.universaltweaks.clear_toasts
+
+Unseen's Dungeon Additions
+key.da.shield_ability
+
+Waila
+waila.keybind.wailaconfig
+waila.keybind.liquid
+waila.keybind.recipe
+waila.keybind.usage
+waila.keybind.wailadisplay
+
+Wizardry Tales
+key.wizardry_tales.cast_spell
+key.wizardry_tales.ability_1
+key.wizardry_tales.manual_chant
+
+Xaero's Minimap
+gui.xaero_alternative_list_players
+gui.xaero_enlarge_map
+gui.xaero_minimap_server_profiles
+gui.xaero_minimap_settings
+gui.xaero_new_waypoint
+gui.xaero_waypoints_key
+gui.xaero_instant_waypoint
+gui.xaero_reverse_entity_radar
+gui.xaero_switch_waypoint_set
+gui.xaero_display_all_sets
+gui.xaero_toggle_grid
+gui.xaero_toggle_entity_radar
+gui.xaero_toggle_waypoints
+gui.xaero_toggle_light_overlay
+gui.xaero_toggle_manual_cave_mode
+gui.xaero_toggle_map
+gui.xaero_toggle_map_waypoints
+gui.xaero_toggle_slime
+gui.xaero_toggle_tracked_players_in_world
+gui.xaero_toggle_tracked_players_on_map
+gui.xaero_zoom_in
+gui.xaero_zoom_out
+
+Xaero's World Map
+gui.xaero_world_map_server_settings
+gui.xaero_open_settings
+gui.xaero_open_map
+gui.xaero_quick_confirm
+gui.xaero_toggle_dimension
+gui.xaero_map_zoom_in
+gui.xaero_map_zoom_out
+
+YDMs Weaponmaster
+key.weaponmaster_ydm.opengui
+
+§eHappyGhast
+key.suikehappyghast.descend
+

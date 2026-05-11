@@ -1,0 +1,13 @@
+# Ignore everything
+/*
+
+# Allow these specific folders
+!/config/
+!/scripts/
+
+# Allow the gitignore itself
+!.gitignore
+
+# Optional: Ignore specific junk inside allowed folders
+**/desktop.ini
+**/.DS_Store

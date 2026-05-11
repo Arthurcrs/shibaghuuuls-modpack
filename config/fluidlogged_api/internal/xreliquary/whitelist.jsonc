@@ -1,0 +1,11 @@
+// DO NOT EDIT!
+[
+    {
+        "blockId": [
+            "xreliquary:pedestal",
+            "xreliquary:pedestal_passive",
+            "xreliquary:wraith_node"
+        ],
+        "canFluidFlow": true
+    }
+]

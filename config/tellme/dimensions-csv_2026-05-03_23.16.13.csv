@@ -1,0 +1,6 @@
+"ID","DimensionType ID","Name","shouldLoadSpawn","Currently loaded","WorldProvider class"
+0,0,"overworld","true","true","net.minecraft.world.WorldProviderSurface"
+-1,-1,"Nether","false","false","git.jbredwards.nether_api.mod.common.world.WorldProviderNether"
+4,4,"AetherI","false","false","com.gildedgames.the_aether.world.AetherWorldProvider"
+312,312,"pocket","true","true","com.windanesz.ancientspellcraft.worldgen.pocketdim.WorldProviderPocketDim"
+1,1,"End","false","false","com.example.structure.world.Biome.WorldProviderEndEE"

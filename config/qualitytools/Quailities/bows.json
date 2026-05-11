@@ -1,0 +1,91 @@
+{
+  "slot": ["mainhand", "offhand"],
+  "whitelist": [{ "class": "ItemBow" }],
+  "blacklist": [],
+  "qualities": [
+    {
+      "name": "quality.cracked.name",
+      "color": "dark_gray",
+      "weight": 5,
+      "attributes": [
+        {
+          "name": "potioncore.projectileDamage",
+          "amount": -0.15,
+          "operation": 2
+        }
+      ]
+    },
+    {
+      "name": "quality.clumsy.name",
+      "color": "red",
+      "weight": 10,
+      "attributes": [
+        {
+          "name": "potioncore.projectileDamage",
+          "amount": -0.05,
+          "operation": 2
+        }
+      ]
+    },
+    { "name": "normal", "weight": 50 },
+    {
+      "name": "quality.light.name",
+      "color": "blue",
+      "weight": 10,
+      "attributes": [
+        {
+          "name": "potioncore.projectileDamage",
+          "amount": 0.05,
+          "operation": 2
+        }
+      ]
+    },
+    {
+      "name": "quality.powerful.name",
+      "color": "aqua",
+      "weight": 5,
+      "attributes": [
+        { "name": "potioncore.projectileDamage", "amount": 0.1, "operation": 2 }
+      ]
+    },
+    {
+      "name": "Arbalest",
+      "color": "dark_purple",
+      "weight": 5,
+      "attributes": [
+        {
+          "name": "potioncore.projectileDamage",
+          "amount": 0.6,
+          "operation": 2
+        },
+        { "name": "generic.attackSpeed", "amount": -0.4, "operation": 2 }
+      ]
+    },
+    {
+      "name": "Quick-Draw",
+      "color": "dark_purple",
+      "weight": 5,
+      "attributes": [
+        { "name": "generic.attackSpeed", "amount": 0.4, "operation": 2 },
+        {
+          "name": "potioncore.projectileDamage",
+          "amount": -0.3,
+          "operation": 2
+        }
+      ]
+    },
+    {
+      "name": "Sighted",
+      "color": "dark_purple",
+      "weight": 5,
+      "attributes": [
+        {
+          "name": "potioncore.projectileDamage",
+          "amount": 0.3,
+          "operation": 2
+        },
+        { "name": "generic.armor", "amount": -6.0, "operation": 0 }
+      ]
+    }
+  ]
+}

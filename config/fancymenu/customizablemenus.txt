@@ -1,0 +1,17 @@
+type = customizablemenus
+
+com.pg85.otg.forge.gui.mainmenu.OTGGuiWorldSelection {
+}
+
+net.minecraft.client.gui.GuiMultiplayer {
+}
+
+net.minecraftforge.fml.client.GuiModList {
+}
+
+net.minecraft.client.gui.GuiOptions {
+}
+
+net.minecraft.client.gui.GuiMainMenu {
+}
+
