@@ -173,9 +173,9 @@ blockWoolBlack
 listAllfishraw
 listAllfishcooked
 cropSeaweed
+tallow
 buttonWood
 gemEnderBiotite
-tallow
 materialStoneTool
 mushroomAny
 blockSlimeGreen
@@ -723,8 +723,6 @@ shovelEmerald
 pickaxeEmerald
 swordEmerald
 hoeEmerald
-stonePolished
-plankStained
 bookshelfOak
 bookshelfSpruce
 bookshelfBirch
@@ -734,6 +732,8 @@ bookshelfDarkOak
 blockCandle
 blockCharcoal
 shardGlass
+stonePolished
+plankStained
 stoneBasaltPolished
 stoneMarblePolished
 stoneLimestonePolished

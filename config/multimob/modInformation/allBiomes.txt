@@ -333,6 +333,11 @@ spookybiomes:seeping_forest
 spookybiomes:bloodied_hills
 aether_legacy:aether_highlands
 jeid:error_biome
+stygian:stygian_growth
+stygian:acidic_plains
+stygian:lunar_meadow
+stygian:algea_desert
+stygian:bacterial_valley
 nb:crimson_forest
 nb:warped_forest
 nb:soul_sand_valley

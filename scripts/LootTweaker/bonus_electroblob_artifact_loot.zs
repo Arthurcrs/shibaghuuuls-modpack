@@ -77,213 +77,272 @@ val lootTables = [
     "iceandfire:lightning_dragon_female_cave"
 ] as string[];
 
-// --- APPRENTICE TIER ---
-// Common weight: 10, Chance: 10%
-val itemsApprentice = [
-    <ebwizardry:ring_condensing>,
-	<ebwizardry:ring_siphoning>,
-	<ebwizardry:ring_fire_melee>, 
+// --- Uncommon: Yellow ---
+val itemsYellow = [
+    // --- Electroblob's Wizardry ---
+    <ebwizardry:ring_siphoning>,
+    <ebwizardry:ring_fire_melee>,
+    <ebwizardry:ring_fire_biome>,
     <ebwizardry:ring_ice_melee>,
-	<ebwizardry:ring_lightning_melee>,
-	<ebwizardry:ring_poison>,
+    <ebwizardry:ring_ice_biome>,
+    <ebwizardry:ring_lightning_melee>,
+    <ebwizardry:ring_necromancy_melee>,
     <ebwizardry:ring_earth_melee>,
-	<ebwizardry:ring_mana_return>,
-	<ebwizardry:amulet_wisdom>,
+    <ebwizardry:ring_earth_biome>,
+    <ebwizardry:ring_mana_return>,
+    <ebwizardry:ring_extraction>,
+    <ebwizardry:ring_paladin>,
+    <ebwizardry:amulet_fire_protection>,
+    <ebwizardry:amulet_ice_protection>,
+    <ebwizardry:amulet_channeling>,
+    <ebwizardry:amulet_banishing>,
+    <ebwizardry:amulet_recovery>,
+    <ebwizardry:charm_minion_health>,
+    <ebwizardry:charm_minion_variants>,
+    <ebwizardry:charm_spell_discovery>,
+    <ebwizardry:charm_growth>,
+    <ebwizardry:charm_sixth_sense>,
+    <ebwizardry:charm_feeding>,
+
+    // --- Ancient Spellcraft ---
     <ancientspellcraft:ring_mana_lesser>,
-	<ancientspellcraft:ring_poison_arrow>, 
+    <ancientspellcraft:ring_poison_arrow>,
     <ancientspellcraft:ring_power>,
-	<ancientspellcraft:ring_prismarine>, 
+    <ancientspellcraft:ring_prismarine>,
     <ancientspellcraft:ring_lily_flower>,
-	<ancientspellcraft:amulet_mana>, 
+    <ancientspellcraft:amulet_mana>,
     <ancientspellcraft:amulet_rabbit>,
-	<ancientspellcraft:charm_seed_bag>, 
+    <ancientspellcraft:charm_seed_bag>,
     <ancientspellcraft:charm_wizard_tankard>,
-	<ancientspellcraft:alchemical_essence>, 
+    <ancientspellcraft:alchemical_essence>,
     <ancientspellcraft:blank_rune>,
-	<ancientspellcraft:devoritium_nugget>,
+    <ancientspellcraft:devoritium_nugget>,
+
+    // --- Arcane Apprentices ---
+    <arcaneapprentices:charm_seal_of_fate>,
+    <arcaneapprentices:charm_itinerary>,
+    <arcaneapprentices:charm_bag_9>,
+
+    // --- Necromancer's Delight ---
+    <necromancersdelight:ring_nameless>,
+    <necromancersdelight:ring_legion>,
+    <necromancersdelight:amulet_necromantic_ward>,
+    <necromancersdelight:amulet_leech_crystal>,
+
+    // --- Spellbundle ---
+    <spellbundle:charm_wishing_well>,
+
+    // --- Wizardry Golems ---
     <wizardrygolems:ring_grass>,
-	<wizardrygolems:ring_sandstone>,
-	<wizardrygolems:ring_charcoal>
+    <wizardrygolems:ring_sandstone>,
+    <wizardrygolems:ring_engraved_concrete>
 ] as IItemStack[];
 
-// --- ADVANCED TIER ---
-// Weight: 5, Chance: 6%
-val itemsAdvanced = [
-    <ebwizardry:ring_battlemage>,
-	<ebwizardry:ring_combustion>,
-	<ebwizardry:ring_meteor>,
-    <ebwizardry:amulet_arcane_defence>,
-	<ebwizardry:amulet_warding>,
-	<ebwizardry:amulet_potential>,
-    <ancientspellcraft:amulet_elemental_offense>,
-	<ancientspellcraft:amulet_talisman_of_affinity>, 
-    <ancientspellcraft:amulet_poison_resistance>,
-	<ancientspellcraft:amulet_power>, 
-    <ancientspellcraft:amulet_persistence>,
-	<ancientspellcraft:amulet_healing_mushroom>, 
-    <ancientspellcraft:amulet_shield>,
-	<ancientspellcraft:amulet_imbued_marble>, 
-    <ancientspellcraft:amulet_oakflesh>,
-	<ancientspellcraft:amulet_inspiration>, 
-    <ancientspellcraft:amulet_domus>,
-	<ancientspellcraft:amulet_searing_skin>, 
-    <ancientspellcraft:ring_mana_transfer>,
-	<ancientspellcraft:ring_protector>, 
-    <ancientspellcraft:ring_mana_cost>,
-	<ancientspellcraft:ring_charge>, 
-    <ancientspellcraft:ring_solid_air>,
-	<ancientspellcraft:ring_lodestone>, 
-    <ancientspellcraft:ring_berserker>,
-	<ancientspellcraft:ring_blast>, 
-    <ancientspellcraft:ring_range>,
-	<ancientspellcraft:ring_duration>, 
-    <ancientspellcraft:ring_focus_crystal>,
-	<ancientspellcraft:ring_griefing>, 
-    <ancientspellcraft:ring_absorb_crystal>,
-	<ancientspellcraft:charm_wild_catalyst>, 
-    <ancientspellcraft:charm_sentinel_eye>,
-	<ancientspellcraft:charm_transcribing_tome>, 
-    <ancientspellcraft:charm_mana_orb>,
-	<ancientspellcraft:charm_specterlight_torch>, 
-    <ancientspellcraft:charm_wardrobe>,
-	<ancientspellcraft:charm_quicksand_walker>, 
-    <ancientspellcraft:charm_magic_light>,
-	<ancientspellcraft:charm_burrow>, 
-    <ancientspellcraft:charm_evergrowing_crystal>,
-	<ancientspellcraft:head_merchant>, 
-    <ancientspellcraft:head_ardor_crown>, 
-	<ancientspellcraft:devoritium_ingot>,
-    <mospells:ring_wind_touch>,
-	<mospells:ring_ice_crystal>,
-	<mospells:amulet_earth>,
-	<mospells:amulet_golden_sun>,
-    <wizardrygolems:ring_obsidian>,
-	<wizardrygolems:ring_glistering>,
-	<wizardrygolems:ring_smoldering>,
-    <wizardrygolems:ring_flame_trail>,
-	<wizardrygolems:ring_frostbite>,
-	<wizardrygolems:amulet_snare>,
-    <wizardrygolems:amulet_gaia>,
-	<wizardrygolems:charm_dried_mushroom>,
-	<wizardrygolems:charm_frozen_mark>,
-    <wizardrygolems:charm_static_aura>,
-	<wizardrygolems:belt_coldlink>
-] as IItemStack[];
-
-// --- MASTER TIER ---
-// Weight: 2, Chance: 2%
-val itemsMaster = [
+// --- Rare: Aqua (Light Blue) ---
+val itemsLightBlue = [
+    // --- Electroblob's Wizardry ---
     <ebwizardry:amulet_lich>,
-	<ebwizardry:charm_transportation>, 
+    <ebwizardry:charm_transportation>,
+    <ebwizardry:charm_abseiling>,
+    <ebwizardry:charm_light>,
+    <ebwizardry:charm_mount_teleporting>,
+    <ebwizardry:charm_hunger_casting>,
+    <ebwizardry:charm_haggler>,
+    <ebwizardry:charm_move_speed>,
+    <ebwizardry:charm_auto_smelt>,
+    <ebwizardry:charm_storm>,
+    <ebwizardry:charm_undead_helmets>,
+    <ebwizardry:ring_condensing>,
+    <ebwizardry:ring_disintegration>,
+    <ebwizardry:ring_shattering>,
+    <ebwizardry:ring_storm>,
+    <ebwizardry:ring_stormcloud>,
+    <ebwizardry:ring_leeching>,
+    <ebwizardry:ring_mind_control>,
+    <ebwizardry:ring_full_moon>,
+    <ebwizardry:ring_evoker>,
+    <ebwizardry:ring_blockwrangler>,
+    <ebwizardry:ring_poison>,
+    <ebwizardry:ring_defender>,
+    <ebwizardry:amulet_arcane_defence>,
+    <ebwizardry:amulet_wisdom>,
+    <ebwizardry:amulet_fire_cloaking>,
+    <ebwizardry:amulet_frost_warding>,
+    <ebwizardry:amulet_potential>,
+    <ebwizardry:amulet_anchoring>,
+    <ebwizardry:amulet_transience>,
+    <ebwizardry:amulet_auto_shield>,
+
+    // --- Ancient Spellcraft ---
     <ancientspellcraft:amulet_cursed_mirror>,
-	<ancientspellcraft:amulet_absorb_potion>, 
+    <ancientspellcraft:amulet_absorb_potion>,
     <ancientspellcraft:amulet_spellbinding>,
-	<ancientspellcraft:amulet_cursed_pendant>, 
+    <ancientspellcraft:amulet_cursed_pendant>,
     <ancientspellcraft:amulet_elemental_defense>,
-	<ancientspellcraft:amulet_black_tongue>, 
+    <ancientspellcraft:amulet_black_tongue>,
     <ancientspellcraft:amulet_of_resistance>,
-	<ancientspellcraft:amulet_curse_ward>, 
+    <ancientspellcraft:amulet_curse_ward>,
     <ancientspellcraft:ring_unbinding>,
-	<ancientspellcraft:ring_disenchanter>, 
+    <ancientspellcraft:ring_disenchanter>,
     <ancientspellcraft:ring_quicksand>,
-	<ancientspellcraft:ring_mana_greater>, 
+    <ancientspellcraft:ring_mana_greater>,
     <ancientspellcraft:ring_devotion>,
-	<ancientspellcraft:charm_ice_cream>, 
+    <ancientspellcraft:charm_ice_cream>,
     <ancientspellcraft:charm_hungry_chest>,
-	<ancientspellcraft:charm_diamond_goose>, 
+    <ancientspellcraft:charm_diamond_goose>,
     <ancientspellcraft:charm_bucket_coal>,
-	<ancientspellcraft:cornucopia>, 
+    <ancientspellcraft:cornucopia>,
     <ancientspellcraft:charm_gold_bag>,
-	<ancientspellcraft:charm_hoarders_orb>, 
+    <ancientspellcraft:charm_hoarders_orb>,
     <ancientspellcraft:charm_metamagic_amplifier>,
-	<ancientspellcraft:charm_voltaic_vessel>,
+    <ancientspellcraft:charm_voltaic_vessel>,
     <ancientspellcraft:mystic_spell_book>,
-    <mospells:amulet_frostmaw>,
-	<mospells:charm_cold_winds>,
-	<mospells:charm_monster_tome>,
+
+    // --- Arcane Apprentices ---
+    <arcaneapprentices:belt_explorer>,
+    <arcaneapprentices:charm_focus_of_clarity>,
+    <arcaneapprentices:belt_strength>,
+    <arcaneapprentices:head_knowledge>,
+    <arcaneapprentices:amulet_survival_chance>,
+    <arcaneapprentices:ring_serendipity>,
+    <arcaneapprentices:charm_golden_lure>,
+
+    // --- Necromancer's Delight ---
+    <necromancersdelight:belt_thorns>,
+    <necromancersdelight:charm_mummy_minion>,
+    <necromancersdelight:charm_bone_bag>,
+    <necromancersdelight:ring_frozen_dagger>,
+    <necromancersdelight:amulet_leechlink>,
+    <necromancersdelight:amulet_malice_ward>,
+
+    // --- Wizardry Golems ---
     <wizardrygolems:ring_forest_guardian>,
-	<wizardrygolems:ring_ancient_emperor>,
-	<wizardrygolems:ring_snow_golem>,
-    <wizardrygolems:ring_fire_golem_duration>, 
-	<wizardrygolems:ring_flame_golem>,
-	<wizardrygolems:ring_winter_golem>,
+    <wizardrygolems:ring_ancient_emperor>,
+    <wizardrygolems:ring_snow_golem>,
+    <wizardrygolems:ring_fire_golem_duration>,
     <wizardrygolems:ring_lodestone_golem>,
-	<wizardrygolems:ring_spark_golem>,
-	<wizardrygolems:ring_electric_scatter>,
-    <wizardrygolems:amulet_deathweed>,
-	<wizardrygolems:amulet_steaming_netherrack>,
-	<wizardrygolems:amulet_jagged_sapphire>,
-    <wizardrygolems:amulet_broken_ice>, 
-	<wizardrygolems:amulet_raging_skies>, 
-	<wizardrygolems:charm_ifrit_bottle>,
-    <wizardrygolems:charm_fire_golemancy_potency>, 
-	<wizardrygolems:charm_living_snow>, 
-	<wizardrygolems:head_permafrost_crown>,
-    <wizardrygolems:head_maelstrom_golem>, 
-	<wizardrygolems:body_frost_cloak>
+    <wizardrygolems:ring_spark_golem>,
+    <wizardrygolems:ring_electric_scatter>,
+    <wizardrygolems:amulet_jagged_sapphire>,
+    <wizardrygolems:amulet_broken_ice>,
+    <wizardrygolems:charm_fire_golemancy_potency>,
+    <wizardrygolems:head_permafrost_crown>,
+    <wizardrygolems:belt_coldlink>,
+    <wizardrygolems:ring_smoldering>,
+    <wizardrygolems:charm_dried_mushroom>,
+    <wizardrygolems:ring_charcoal>,
+    <wizardrygolems:amulet_snare>,
+
+    // --- Mo' Spells ---
+    <mospells:charm_cold_winds>,
+    <mospells:charm_monster_tome>,
+    <mospells:ring_wind_touch>,
+
+    // --- Spellbundle ---
+    <spellbundle:charm_spectral_hammer>,
+    <spellbundle:ring_key>,
+    <spellbundle:charm_spirit_guide>
 ] as IItemStack[];
 
-// --- LEGENDARY TIER ---
-// Weight: 1, Chance: 0.5%
-val itemsLegendary = [
+// --- Epic: Light Purple (Pinkish) ---
+val itemsLightPurple = [
+    // --- Electroblob's Wizardry ---
     <ebwizardry:amulet_resurrection>,
-	<ebwizardry:charm_flight>,
-	<ebwizardry:charm_stop_time>,
+    <ebwizardry:charm_flight>,
+    <ebwizardry:charm_stop_time>,
+    <ebwizardry:charm_lava_walking>,
+    <ebwizardry:charm_black_hole>,
+    <ebwizardry:charm_silk_touch>,
+    <ebwizardry:charm_experience_tome>,
+    <ebwizardry:amulet_absorption>,
+    <ebwizardry:amulet_ice_immunity>,
+
+    // --- Ancient Spellcraft ---
     <ancientspellcraft:amulet_pendant_of_eternity>,
-	<ancientspellcraft:amulet_time_knot>, 
+    <ancientspellcraft:amulet_time_knot>,
     <ancientspellcraft:amulet_arcane_catalyst>,
-	<ancientspellcraft:amulet_elemental_aura>, 
-    <ancientspellcraft:amulet_time_slow>, 
-	<ancientspellcraft:amulet_holy_aura>, 
-    <ancientspellcraft:amulet_celerity>, 
-	<ancientspellcraft:ring_withdraw_life>, 
-    <ancientspellcraft:ring_cloudwalker>, 
-	<ancientspellcraft:ring_spirit_ward>, 
-    <ancientspellcraft:ring_kinetic>, 
-	<ancientspellcraft:ring_metamagic_preserve>, 
-    <ancientspellcraft:ring_rare_scroll>, 
-	<ancientspellcraft:ring_chaos_blast_multitarget>, 
-    <ancientspellcraft:ring_of_force>, 
-	<ancientspellcraft:ring_life_drain>, 
+    <ancientspellcraft:amulet_elemental_aura>,
+    <ancientspellcraft:amulet_time_slow>,
+    <ancientspellcraft:amulet_holy_aura>,
+    <ancientspellcraft:amulet_celerity>,
+    <ancientspellcraft:ring_withdraw_life>,
+    <ancientspellcraft:ring_cloudwalker>,
+    <ancientspellcraft:ring_spirit_ward>,
+    <ancientspellcraft:ring_kinetic>,
+    <ancientspellcraft:ring_metamagic_preserve>,
+    <ancientspellcraft:ring_rare_scroll>,
+    <ancientspellcraft:ring_chaos_blast_multitarget>,
+    <ancientspellcraft:ring_of_force>,
+    <ancientspellcraft:ring_life_drain>,
     <ancientspellcraft:ring_undeath>,
-	<ancientspellcraft:ring_eternal_contingency>, 
-    <ancientspellcraft:ring_eternal_servitude>, 
-	<ancientspellcraft:ring_shivering>, 
-    <ancientspellcraft:ring_permanent_shrinkage>, 
-	<ancientspellcraft:ring_permanent_growth>, 
+    <ancientspellcraft:ring_eternal_contingency>,
+    <ancientspellcraft:ring_eternal_servitude>,
+    <ancientspellcraft:ring_shivering>,
+    <ancientspellcraft:ring_permanent_shrinkage>,
+    <ancientspellcraft:ring_permanent_growth>,
     <ancientspellcraft:ring_arcane_flames>,
-	<ancientspellcraft:ring_healer>, 
-    <ancientspellcraft:charm_mana_flask>, 
-	<ancientspellcraft:charm_vaulting_boots>, 
-    <ancientspellcraft:charm_rift_bottle>, 
-	<ancientspellcraft:body_clockwork_heart>, 
+    <ancientspellcraft:ring_healer>,
+    <ancientspellcraft:charm_mana_flask>,
+    <ancientspellcraft:charm_vaulting_boots>,
+    <ancientspellcraft:charm_rift_bottle>,
+    <ancientspellcraft:body_clockwork_heart>,
     <ancientspellcraft:body_cloak_of_levitation>,
-	<ancientspellcraft:head_mask_of_silence>,
+    <ancientspellcraft:head_mask_of_silence>,
     <ancientspellcraft:scepter_mind_control>,
-	<ancientspellcraft:forbidden_tome>,
-    <wizardrygolems:ring_permanent_golem>
+    <ancientspellcraft:forbidden_tome>,
+
+    // --- Arcane Apprentices ---
+    <arcaneapprentices:charm_bag_27>,
+    <arcaneapprentices:charm_withering_atlas>,
+    <arcaneapprentices:charm_talent_detector>,
+    <arcaneapprentices:charm_spell_compass>,
+    <arcaneapprentices:charm_eternal_grimoire>,
+
+    // --- Necromancer's Delight ---
+    <necromancersdelight:charm_scarab>,
+    <necromancersdelight:charm_mushroom_minion>,
+    <necromancersdelight:head_pest_crown>,
+    <necromancersdelight:ring_forsaken>,
+    <necromancersdelight:amulet_slowness_immunity>,
+    <necromancersdelight:amulet_weakness_immunity>,
+
+    // --- Wizardry Golems ---
+    <wizardrygolems:ring_permanent_golem>,
+    <wizardrygolems:charm_static_aura>,
+    <wizardrygolems:amulet_raging_skies>,
+    <wizardrygolems:head_maelstrom_golem>,
+    <wizardrygolems:charm_living_snow>,
+    <wizardrygolems:body_frost_cloak>,
+    <wizardrygolems:ring_flame_golem>,
+    <wizardrygolems:amulet_steaming_netherrack>,
+    <wizardrygolems:charm_ifrit_bottle>,
+    <wizardrygolems:ring_winter_golem>,
+    <wizardrygolems:amulet_deathweed>,
+    <wizardrygolems:amulet_gaia>,
+
+    // --- Spellbundle & Mo' Spells ---
+    <spellbundle:amulet_reforging>,
+    <spellbundle:ring_wraith>,
+    <mospells:amulet_golden_sun>,
+    <mospells:amulet_frostmaw>,
+    <mospells:amulet_earth>
 ] as IItemStack[];
 
 for lootTable in lootTables {
     val table = LootTweaker.getTable(lootTable);
-    
-    // Apprentice Pool (Common/Utility)
-    val poolApp = table.addPool("as_apprentice", 1, 1, 0, 0);
-    poolApp.addConditions([Conditions.randomChance(0.10)]);
-    for item in itemsApprentice { poolApp.addItemEntry(item, 10); }
 
-    // Advanced Pool (Uncommon/Specialized)
+    // Uncommon: Yellow
     val poolAdv = table.addPool("as_advanced", 1, 1, 0, 0);
-    poolAdv.addConditions([Conditions.randomChance(0.06)]);
-    for item in itemsAdvanced { poolAdv.addItemEntry(item, 5); }
+    poolAdv.addConditions([Conditions.randomChance(0.02)]);
+    for item in itemsYellow { poolAdv.addItemEntry(item, 5); }
 
-    // Master Pool (Rare/Powerful)
+    // Rare: Aqua (Light Blue)
     val poolMas = table.addPool("as_master", 1, 1, 0, 0);
-    poolMas.addConditions([Conditions.randomChance(0.02)]);
-    for item in itemsMaster { poolMas.addItemEntry(item, 2); }
+    poolMas.addConditions([Conditions.randomChance(0.01)]);
+    for item in itemsLightBlue { poolMas.addItemEntry(item, 2); }
 
-    // Legendary Pool (End-game/Meta-breaking)
+    // Epic: Light Purple (Pinkish)
     val poolLeg = table.addPool("as_legendary", 1, 1, 0, 0);
     poolLeg.addConditions([Conditions.randomChance(0.005)]);
-    for item in itemsLegendary { poolLeg.addItemEntry(item, 1); }
+    for item in itemsLightPurple { poolLeg.addItemEntry(item, 1); }
 }
