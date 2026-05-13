@@ -223,7 +223,6 @@ key.music_player_previous
 key.music_player_toggle
 
 Optifine
-gnetum.config.keyMapping
 of.key.zoom
 
 Quark

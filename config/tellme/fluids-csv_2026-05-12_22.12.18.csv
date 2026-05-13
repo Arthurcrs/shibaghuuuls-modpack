@@ -7,6 +7,7 @@
 "beetroot_soup",1000,300,1000,0,"COMMON","false","-"
 "blood",1000,300,1000,0,"COMMON","false","biomesoplenty:blood"
 "cider",1004,300,1400,0,"COMMON","false","-"
+"endacid",1100,300,900,5,"COMMON","false","stygian:endacid"
 "goldenapplejuice",1050,300,1100,0,"EPIC","false","rustic:golden_apple_juice"
 "grapejuice",1070,300,1100,0,"COMMON","false","rustic:grape_juice"
 "honey",1000,300,1500,0,"COMMON","false","biomesoplenty:honey"

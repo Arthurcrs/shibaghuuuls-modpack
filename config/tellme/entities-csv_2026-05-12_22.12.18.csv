@@ -107,6 +107,7 @@
 "Arcane Essentials","arcane_essentials:solarbeam","EntitySolarBeam",9
 "Arcane Essentials","arcane_essentials:thunderburst","EntityThunderBurst",4
 "Arcane Essentials","arcane_essentials:waterball","EntityWaterBall",19
+"Arcane Essentials","arcane_essentials:waterwall","EntityWaterWall",20
 "Arcane Essentials","arcane_essentials:whirlpool","EntityWhirlpool",7
 "ArcaneApprentices","arcaneapprentices:wizard_initiate","EntityWizardInitiate",1
 "AstikorCarts","astikorcarts:cargocart","EntityCargoCart",0
@@ -630,7 +631,12 @@
 "Frozen Fiend","iceologer:iceologer","EntityIceologer",1
 "Future Fireproof","futurefireproof:fireproof_item","EntityFireproofItem",100
 "Future MC","futuremc:bee","EntityBee",4
+"Future MC","futuremc:cod","EntityCod",5
 "Future MC","futuremc:panda","EntityPanda",3
+"Future MC","futuremc:pufferfish","EntityPufferfish",6
+"Future MC","futuremc:salmon","EntitySalmon",7
+"Future MC","futuremc:trident","Trident",1
+"Future MC","futuremc:tropical_fish","EntityTropicalFish",8
 "Grimoire of Gaia 3","grimoireofgaia:ant","EntityGaiaAnt",1
 "Grimoire of Gaia 3","grimoireofgaia:ant_hill","EntityGaiaPropAntHill",2
 "Grimoire of Gaia 3","grimoireofgaia:ant_ranger","EntityGaiaAntRanger",3
@@ -782,6 +788,12 @@
 "Ice and Fire: RotN Edition","iceandfire:stymphalianbird","EntityStymphalianBird",924
 "Ice and Fire: RotN Edition","iceandfire:stymphalianfeather","EntityStymphalianFeather",925
 "Ice and Fire: RotN Edition","iceandfire:tide_trident","EntityTideTrident",942
+"Illagers+","illagers_plus:archer","EntityArcher",6
+"Illagers+","illagers_plus:enchanter","EntityEnchanter",5
+"Illagers+","illagers_plus:furantur","EntityFurantur",1
+"Illagers+","illagers_plus:hoarder","EntityHoarder",2
+"Illagers+","illagers_plus:illager_king","EntityIllagerKing",4
+"Illagers+","illagers_plus:necromancer","EntityNecromancer",3
 "Inspirations","inspirations:arrow","EntityModArrow",0
 "Lost Aether Content","lost_aether:falling_rock","EntityFallingRock",1
 "Lost Aether Content","lost_aether:king_aerwhale","EntityAerwhaleKing",0
@@ -898,21 +910,21 @@
 "Mowzie's Mobs","mowziesmobs:sunstrike","EntitySunstrike",12
 "Mowzie's Mobs","mowziesmobs:super_nova","EntitySuperNova",22
 "Multi Mob Core","multimob:dummy","EntityDummy",0
-"Mutant Beasts","mutantbeasts:body_part","BodyPartEntity",0
-"Mutant Beasts","mutantbeasts:chemical_x","ChemicalXEntity",1
-"Mutant Beasts","mutantbeasts:creeper_minion","CreeperMinionEntity",2
-"Mutant Beasts","mutantbeasts:creeper_minion_egg","CreeperMinionEggEntity",3
-"Mutant Beasts","mutantbeasts:endersoul_clone","EndersoulCloneEntity",4
-"Mutant Beasts","mutantbeasts:endersoul_fragment","EndersoulFragmentEntity",5
-"Mutant Beasts","mutantbeasts:mutant_arrow","MutantArrowEntity",6
-"Mutant Beasts","mutantbeasts:mutant_creeper","MutantCreeperEntity",7
-"Mutant Beasts","mutantbeasts:mutant_enderman","MutantEndermanEntity",8
-"Mutant Beasts","mutantbeasts:mutant_skeleton","MutantSkeletonEntity",9
-"Mutant Beasts","mutantbeasts:mutant_snow_golem","MutantSnowGolemEntity",10
-"Mutant Beasts","mutantbeasts:mutant_zombie","MutantZombieEntity",11
-"Mutant Beasts","mutantbeasts:skull_spirit","SkullSpiritEntity",12
-"Mutant Beasts","mutantbeasts:spider_pig","SpiderPigEntity",13
-"Mutant Beasts","mutantbeasts:throwable_block","ThrowableBlockEntity",14
+"Mutant Creatures Legacy","mutantbeasts:body_part","BodyPartEntity",0
+"Mutant Creatures Legacy","mutantbeasts:chemical_x","ChemicalXEntity",1
+"Mutant Creatures Legacy","mutantbeasts:creeper_minion","CreeperMinionEntity",3
+"Mutant Creatures Legacy","mutantbeasts:creeper_minion_egg","CreeperMinionEggEntity",4
+"Mutant Creatures Legacy","mutantbeasts:endersoul_clone","EndersoulCloneEntity",2
+"Mutant Creatures Legacy","mutantbeasts:endersoul_fragment","EndersoulFragmentEntity",5
+"Mutant Creatures Legacy","mutantbeasts:mutant_arrow","MutantArrowEntity",6
+"Mutant Creatures Legacy","mutantbeasts:mutant_creeper","MutantCreeperEntity",7
+"Mutant Creatures Legacy","mutantbeasts:mutant_enderman","MutantEndermanEntity",8
+"Mutant Creatures Legacy","mutantbeasts:mutant_skeleton","MutantSkeletonEntity",9
+"Mutant Creatures Legacy","mutantbeasts:mutant_snow_golem","MutantSnowGolemEntity",10
+"Mutant Creatures Legacy","mutantbeasts:mutant_zombie","MutantZombieEntity",11
+"Mutant Creatures Legacy","mutantbeasts:skull_spirit","SkullSpiritEntity",12
+"Mutant Creatures Legacy","mutantbeasts:spider_pig","SpiderPigEntity",13
+"Mutant Creatures Legacy","mutantbeasts:throwable_block","ThrowableBlockEntity",14
 "Mystical Lib","mysticalworld:entity_beetle","EntityBeetle",2
 "Mystical Lib","mysticalworld:entity_clam","EntityClam",10
 "Mystical Lib","mysticalworld:entity_deer","EntityDeer",5
@@ -1218,7 +1230,24 @@
 "Special Mobs","specialmobs:windwitch","EntityWindWitch",96
 "Special Mobs","specialmobs:witchcavespider","EntityWitchCaveSpider",77
 "Special Mobs","specialmobs:witchspider","EntityWitchSpider",71
+"SpellBundle","spellbundle:wasp_minion","EntityWaspMinion",0
 "Spooky Biomes","spookybiomes:the_forgotten_warlock","EntityTheForgottenWarlock",0
+"Stygian End Re-continuation","stygian:blastling","EntityBlastling",2
+"Stygian End Re-continuation","stygian:blastling_ball","EntityBlastlingBall",14
+"Stygian End Re-continuation","stygian:cracky","EntityCracky",5
+"Stygian End Re-continuation","stygian:end_skeleton","EntityEndSkeleton",4
+"Stygian End Re-continuation","stygian:endbob","EntityEndbob",7
+"Stygian End Re-continuation","stygian:endwyrm","EntityEndWyrm",8
+"Stygian End Re-continuation","stygian:lunaling","EntityLunaling",11
+"Stygian End Re-continuation","stygian:lunar_zorp","EntityLunarZorp",10
+"Stygian End Re-continuation","stygian:pix","EntityPix",9
+"Stygian End Re-continuation","stygian:skipper","EntitySkipper",13
+"Stygian End Re-continuation","stygian:slush","EntitySlush",12
+"Stygian End Re-continuation","stygian:snareling","EntitySnareling",3
+"Stygian End Re-continuation","stygian:snareling_ball","EntitySnarelingBall",15
+"Stygian End Re-continuation","stygian:supaika","EntitySupaika",6
+"Stygian End Re-continuation","stygian:throwdable_end_bone","EntityThrowdableBone",16
+"Stygian End Re-continuation","stygian:watchling","EntityWatchling",1
 "Switch-Bow","switchbow:arrowair","EntityArrowAir",3
 "Switch-Bow","switchbow:arrowairupgrade","EntityArrowAirUpgrade",206
 "Switch-Bow","switchbow:arrowbone","EntityArrowBone",13

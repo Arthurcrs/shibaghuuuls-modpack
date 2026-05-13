@@ -1978,6 +1978,7 @@
 "Future MC","futuremc:acacia_standing_sign",1.00,5.00
 "Future MC","futuremc:acacia_trapdoor",3.00,15.00
 "Future MC","futuremc:acacia_wall_sign",1.00,5.00
+"Future MC","futuremc:acacia_wood",2.00,0.00
 "Future MC","futuremc:ancient_debris",30.00,1200.00
 "Future MC","futuremc:andesite_wall",1.50,6.00
 "Future MC","futuremc:bamboo",1.00,1.00
@@ -1988,7 +1989,9 @@
 "Future MC","futuremc:birch_standing_sign",1.00,5.00
 "Future MC","futuremc:birch_trapdoor",3.00,15.00
 "Future MC","futuremc:birch_wall_sign",1.00,5.00
+"Future MC","futuremc:birch_wood",2.00,0.00
 "Future MC","futuremc:blast_furnace",3.50,3.50
+"Future MC","futuremc:blue_ice",2.80,2.80
 "Future MC","futuremc:brick_wall",2.00,6.00
 "Future MC","futuremc:campfire",2.00,2.00
 "Future MC","futuremc:cartography_table",2.50,2.50
@@ -1998,6 +2001,7 @@
 "Future MC","futuremc:dark_oak_standing_sign",1.00,5.00
 "Future MC","futuremc:dark_oak_trapdoor",3.00,15.00
 "Future MC","futuremc:dark_oak_wall_sign",1.00,5.00
+"Future MC","futuremc:dark_oak_wood",2.00,0.00
 "Future MC","futuremc:diorite_wall",1.50,6.00
 "Future MC","futuremc:end_stone_brick_wall",3.00,9.00
 "Future MC","futuremc:fletching_table",2.50,2.50
@@ -2007,12 +2011,14 @@
 "Future MC","futuremc:jungle_standing_sign",1.00,5.00
 "Future MC","futuremc:jungle_trapdoor",3.00,15.00
 "Future MC","futuremc:jungle_wall_sign",1.00,5.00
+"Future MC","futuremc:jungle_wood",2.00,0.00
 "Future MC","futuremc:lantern",3.50,3.50
 "Future MC","futuremc:lily_of_the_valley",0.00,0.00
 "Future MC","futuremc:loom",3.00,3.00
 "Future MC","futuremc:mossy_stone_brick_wall",1.50,6.00
 "Future MC","futuremc:nether_brick_wall",2.00,6.00
 "Future MC","futuremc:netherite_block",50.00,1200.00
+"Future MC","futuremc:oak_wood",2.00,0.00
 "Future MC","futuremc:prismarine_wall",1.50,6.00
 "Future MC","futuremc:red_nether_brick_wall",2.00,6.00
 "Future MC","futuremc:red_sandstone_wall",0.80,0.80
@@ -2030,8 +2036,21 @@
 "Future MC","futuremc:spruce_standing_sign",1.00,5.00
 "Future MC","futuremc:spruce_trapdoor",3.00,15.00
 "Future MC","futuremc:spruce_wall_sign",1.00,5.00
+"Future MC","futuremc:spruce_wood",2.00,0.00
 "Future MC","futuremc:stone_brick_wall",1.50,6.00
 "Future MC","futuremc:stonecutter",3.50,3.50
+"Future MC","futuremc:stripped_acacia_log",2.00,10.00
+"Future MC","futuremc:stripped_acacia_wood",2.00,0.00
+"Future MC","futuremc:stripped_birch_log",2.00,10.00
+"Future MC","futuremc:stripped_birch_wood",2.00,0.00
+"Future MC","futuremc:stripped_dark_oak_log",2.00,10.00
+"Future MC","futuremc:stripped_dark_oak_wood",2.00,0.00
+"Future MC","futuremc:stripped_jungle_log",2.00,10.00
+"Future MC","futuremc:stripped_jungle_wood",2.00,0.00
+"Future MC","futuremc:stripped_oak_log",2.00,10.00
+"Future MC","futuremc:stripped_oak_wood",2.00,0.00
+"Future MC","futuremc:stripped_spruce_log",2.00,10.00
+"Future MC","futuremc:stripped_spruce_wood",2.00,0.00
 "Future MC","futuremc:wither_rose",0.00,0.00
 "Grimoire of Gaia 3","grimoireofgaia:block_pearl",1.50,30.00
 "Grimoire of Gaia 3","grimoireofgaia:bust_gorgon",1.50,18.00
@@ -4249,12 +4268,6 @@
 "Rats: Rebirth of the Plague","rats:rattrap",1.00,5.00
 "Rats: Rebirth of the Plague","rats:upgrade_combiner",5.00,25.00
 "Rats: Rebirth of the Plague","rats:upgrade_separator",5.00,25.00
-"Recurrent Complex","reccomplex:generic_solid",0.00,0.00
-"Recurrent Complex","reccomplex:generic_space",0.00,0.00
-"Recurrent Complex","reccomplex:maze_generator",0.00,0.00
-"Recurrent Complex","reccomplex:spawn_script",0.00,0.00
-"Recurrent Complex","reccomplex:structure_generator",0.00,0.00
-"Recurrent Complex","reccomplex:weighted_command_block",0.00,0.00
 "Reliquary","xreliquary:altar",1.50,15.00
 "Reliquary","xreliquary:apothecary_cauldron",1.50,15.00
 "Reliquary","xreliquary:apothecary_mortar",1.50,6.00
@@ -4466,6 +4479,7 @@
 "Rustic Furniture Compat","rusticcompat:chair_tenebra",1.00,5.00
 "Rustic Furniture Compat","rusticcompat:chair_white_painted",1.00,5.00
 "Rustic Furniture Compat","rusticcompat:chair_white_stained",1.00,5.00
+"Rustic Furniture Compat","rusticcompat:chair_wyrmwood",1.00,5.00
 "Rustic Furniture Compat","rusticcompat:chair_yellow_painted",1.00,5.00
 "Rustic Furniture Compat","rusticcompat:chair_yellow_stained",1.00,5.00
 "Rustic Furniture Compat","rusticcompat:table_black_painted",1.00,5.00
@@ -4503,6 +4517,7 @@
 "Rustic Furniture Compat","rusticcompat:table_tenebra",1.00,5.00
 "Rustic Furniture Compat","rusticcompat:table_white_painted",1.00,5.00
 "Rustic Furniture Compat","rusticcompat:table_white_stained",1.00,5.00
+"Rustic Furniture Compat","rusticcompat:table_wyrmwood",1.00,5.00
 "Rustic Furniture Compat","rusticcompat:table_yellow_painted",1.00,5.00
 "Rustic Furniture Compat","rusticcompat:table_yellow_stained",1.00,5.00
 "Scaling Health","scalinghealth:crystalore",3.00,45.00
@@ -4517,6 +4532,7 @@
 "Simple Storage Network","storagenetwork:request",3.00,15.00
 "Simple Storage Network","storagenetwork:simple_kabel",1.40,7.00
 "Simple Storage Network","storagenetwork:storage_kabel",1.40,7.00
+"SpellBundle","spellbundle:conjured_bramble",0.50,2.50
 "Spellcaster's Archives","spellarchives:spell_archive",2.00,10.00
 "Spooky Biomes","spookybiomes:bloodied_dirt",0.50,9.00
 "Spooky Biomes","spookybiomes:bloodied_grass",0.60,9.00
@@ -4643,6 +4659,70 @@
 "Structurize","structurize:blocktimberframe_spruce_plain",3.00,3.00
 "Structurize","structurize:blocktimberframe_spruce_sideframed",3.00,3.00
 "Structurize","structurize:multiblock",0.00,3.00
+"Stygian End Re-continuation","stygian:endacid",0.00,0.00
+"Stygian End Re-continuation","stygian:endaciddeadbush",0.00,0.00
+"Stygian End Re-continuation","stygian:endastrodoor",2.00,10.00
+"Stygian End Re-continuation","stygian:endastrofence",2.00,15.00
+"Stygian End Re-continuation","stygian:endastrofencegate",2.00,15.00
+"Stygian End Re-continuation","stygian:endastroleaves",0.20,1.00
+"Stygian End Re-continuation","stygian:endastrolog",2.00,10.00
+"Stygian End Re-continuation","stygian:endastroplanks",2.00,10.00
+"Stygian End Re-continuation","stygian:endastroplanksslab",2.00,10.00
+"Stygian End Re-continuation","stygian:endastroplanksslab_double",2.00,10.00
+"Stygian End Re-continuation","stygian:endastrosapling",0.00,0.00
+"Stygian End Re-continuation","stygian:endastrostairs",2.00,10.00
+"Stygian End Re-continuation","stygian:endbluecactus",0.40,2.00
+"Stygian End Re-continuation","stygian:endcactus",0.40,2.00
+"Stygian End Re-continuation","stygian:endcanopysapling",0.00,0.00
+"Stygian End Re-continuation","stygian:endcell",0.00,0.00
+"Stygian End Re-continuation","stygian:enddeadbush",0.00,0.00
+"Stygian End Re-continuation","stygian:enddeadcoalore",3.00,45.00
+"Stygian End Re-continuation","stygian:enddeadcobblestone",1.50,30.00
+"Stygian End Re-continuation","stygian:enddeaddirt",0.50,2.50
+"Stygian End Re-continuation","stygian:enddeadgrass",0.00,0.00
+"Stygian End Re-continuation","stygian:enddeadhangingroot",0.00,0.00
+"Stygian End Re-continuation","stygian:enddeadstone",1.50,30.00
+"Stygian End Re-continuation","stygian:enddeadstonebrick",1.50,30.00
+"Stygian End Re-continuation","stygian:enddoor",2.00,10.00
+"Stygian End Re-continuation","stygian:enddragonorchid",0.00,0.00
+"Stygian End Re-continuation","stygian:endfence",2.00,15.00
+"Stygian End Re-continuation","stygian:endfencegate",2.00,15.00
+"Stygian End Re-continuation","stygian:endglow",0.00,0.00
+"Stygian End Re-continuation","stygian:endgrass",0.60,3.00
+"Stygian End Re-continuation","stygian:endleaves",0.20,1.00
+"Stygian End Re-continuation","stygian:endlightflower",0.00,0.00
+"Stygian End Re-continuation","stygian:endlog",2.00,10.00
+"Stygian End Re-continuation","stygian:endlogstairs",2.00,10.00
+"Stygian End Re-continuation","stygian:endlunargrass",0.50,2.50
+"Stygian End Re-continuation","stygian:endlunartallgrass",0.00,0.00
+"Stygian End Re-continuation","stygian:endmagma",0.50,2.50
+"Stygian End Re-continuation","stygian:endmoonrock",1.50,30.00
+"Stygian End Re-continuation","stygian:endmoonshine",0.00,0.00
+"Stygian End Re-continuation","stygian:endobsidian",1.50,30.00
+"Stygian End Re-continuation","stygian:endobsidianbrick",1.50,30.00
+"Stygian End Re-continuation","stygian:endplanks",2.00,10.00
+"Stygian End Re-continuation","stygian:endplanksslab",2.00,10.00
+"Stygian End Re-continuation","stygian:endplanksslab_double",2.00,10.00
+"Stygian End Re-continuation","stygian:endpolishedmoonrock",1.50,30.00
+"Stygian End Re-continuation","stygian:endsand",0.50,1.50
+"Stygian End Re-continuation","stygian:endshiren",0.00,0.00
+"Stygian End Re-continuation","stygian:endsmallcanopysapling",0.00,0.00
+"Stygian End Re-continuation","stygian:endsnarebells",0.00,0.00
+"Stygian End Re-continuation","stygian:endsnaregrass",0.50,2.50
+"Stygian End Re-continuation","stygian:endsnaretallgrass",0.00,0.00
+"Stygian End Re-continuation","stygian:endtallgrass",0.00,0.00
+"Stygian End Re-continuation","stygian:endvine",0.00,0.00
+"Stygian End Re-continuation","stygian:endviscousdoor",2.00,10.00
+"Stygian End Re-continuation","stygian:endviscousfence",2.00,15.00
+"Stygian End Re-continuation","stygian:endviscousfencegate",2.00,15.00
+"Stygian End Re-continuation","stygian:endviscousleaves",0.20,1.00
+"Stygian End Re-continuation","stygian:endviscouslog",2.00,10.00
+"Stygian End Re-continuation","stygian:endviscousplanks",2.00,10.00
+"Stygian End Re-continuation","stygian:endviscousplanksslab",2.00,10.00
+"Stygian End Re-continuation","stygian:endviscousplanksslab_double",2.00,10.00
+"Stygian End Re-continuation","stygian:endviscoussapling",0.00,0.00
+"Stygian End Re-continuation","stygian:endviscousstairs",2.00,10.00
+"Stygian End Re-continuation","stygian:endwyrmroots",0.00,0.00
 "Switch-Bow","switchbow:arrowdispenser",0.00,0.00
 "Switch-Bow","switchbow:minilight",0.00,0.00
 "Switch-Bow","switchbow:podest",7.50,37.50

@@ -2236,6 +2236,7 @@ fishingmadebetter:baitbox:
 futuremc:acacia_standing_sign: PropertyInteger{name=rotation, clazz=class java.lang.Integer, values=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]}
 futuremc:acacia_trapdoor: PropertyDirection{name=facing, clazz=class net.minecraft.util.EnumFacing, values=[north, south, west, east]}, PropertyEnum{name=half, clazz=class net.minecraft.block.BlockTrapDoor$DoorHalf, values=[top, bottom]}, PropertyBool{name=open, clazz=class java.lang.Boolean, values=[true, false]}
 futuremc:acacia_wall_sign: PropertyDirection{name=facing, clazz=class net.minecraft.util.EnumFacing, values=[north, south, west, east]}
+futuremc:acacia_wood: PropertyEnum{name=axis, clazz=class net.minecraft.util.EnumFacing$Axis, values=[x, y, z]}
 futuremc:ancient_debris: 
 futuremc:andesite_wall: PropertyBool{name=east, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=north, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=south, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=up, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=west, clazz=class java.lang.Boolean, values=[true, false]}
 futuremc:bamboo: PropertyEnum{name=leaves, clazz=class thedarkcolour.futuremc.block.villagepillage.BlockBamboo$EnumLeaves, values=[NO_LEAVES, SMALL_LEAVES, LARGE_LEAVES]}, PropertyBool{name=mature, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=thick, clazz=class java.lang.Boolean, values=[true, false]}
@@ -2246,7 +2247,9 @@ futuremc:bell: PropertyEnum{name=attachment, clazz=class thedarkcolour.futuremc.
 futuremc:birch_standing_sign: PropertyInteger{name=rotation, clazz=class java.lang.Integer, values=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]}
 futuremc:birch_trapdoor: PropertyDirection{name=facing, clazz=class net.minecraft.util.EnumFacing, values=[north, south, west, east]}, PropertyEnum{name=half, clazz=class net.minecraft.block.BlockTrapDoor$DoorHalf, values=[top, bottom]}, PropertyBool{name=open, clazz=class java.lang.Boolean, values=[true, false]}
 futuremc:birch_wall_sign: PropertyDirection{name=facing, clazz=class net.minecraft.util.EnumFacing, values=[north, south, west, east]}
+futuremc:birch_wood: PropertyEnum{name=axis, clazz=class net.minecraft.util.EnumFacing$Axis, values=[x, y, z]}
 futuremc:blast_furnace: PropertyDirection{name=facing, clazz=class net.minecraft.util.EnumFacing, values=[north, south, west, east]}, PropertyBool{name=lit, clazz=class java.lang.Boolean, values=[true, false]}
+futuremc:blue_ice: 
 futuremc:brick_wall: PropertyBool{name=east, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=north, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=south, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=up, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=west, clazz=class java.lang.Boolean, values=[true, false]}
 futuremc:campfire: PropertyDirection{name=facing, clazz=class net.minecraft.util.EnumFacing, values=[north, south, west, east]}, PropertyBool{name=lit, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=signal, clazz=class java.lang.Boolean, values=[true, false]}
 futuremc:cartography_table: PropertyDirection{name=facing, clazz=class net.minecraft.util.EnumFacing, values=[north, south, west, east]}
@@ -2256,6 +2259,7 @@ futuremc:cornflower:
 futuremc:dark_oak_standing_sign: PropertyInteger{name=rotation, clazz=class java.lang.Integer, values=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]}
 futuremc:dark_oak_trapdoor: PropertyDirection{name=facing, clazz=class net.minecraft.util.EnumFacing, values=[north, south, west, east]}, PropertyEnum{name=half, clazz=class net.minecraft.block.BlockTrapDoor$DoorHalf, values=[top, bottom]}, PropertyBool{name=open, clazz=class java.lang.Boolean, values=[true, false]}
 futuremc:dark_oak_wall_sign: PropertyDirection{name=facing, clazz=class net.minecraft.util.EnumFacing, values=[north, south, west, east]}
+futuremc:dark_oak_wood: PropertyEnum{name=axis, clazz=class net.minecraft.util.EnumFacing$Axis, values=[x, y, z]}
 futuremc:diorite_wall: PropertyBool{name=east, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=north, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=south, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=up, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=west, clazz=class java.lang.Boolean, values=[true, false]}
 futuremc:end_stone_brick_wall: PropertyBool{name=east, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=north, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=south, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=up, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=west, clazz=class java.lang.Boolean, values=[true, false]}
 futuremc:fletching_table: PropertyDirection{name=facing, clazz=class net.minecraft.util.EnumFacing, values=[north, south, west, east]}
@@ -2265,12 +2269,14 @@ futuremc:honeycomb_block:
 futuremc:jungle_standing_sign: PropertyInteger{name=rotation, clazz=class java.lang.Integer, values=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]}
 futuremc:jungle_trapdoor: PropertyDirection{name=facing, clazz=class net.minecraft.util.EnumFacing, values=[north, south, west, east]}, PropertyEnum{name=half, clazz=class net.minecraft.block.BlockTrapDoor$DoorHalf, values=[top, bottom]}, PropertyBool{name=open, clazz=class java.lang.Boolean, values=[true, false]}
 futuremc:jungle_wall_sign: PropertyDirection{name=facing, clazz=class net.minecraft.util.EnumFacing, values=[north, south, west, east]}
+futuremc:jungle_wood: PropertyEnum{name=axis, clazz=class net.minecraft.util.EnumFacing$Axis, values=[x, y, z]}
 futuremc:lantern: PropertyBool{name=hanging, clazz=class java.lang.Boolean, values=[true, false]}
 futuremc:lily_of_the_valley: 
 futuremc:loom: PropertyDirection{name=facing, clazz=class net.minecraft.util.EnumFacing, values=[north, south, west, east]}
 futuremc:mossy_stone_brick_wall: PropertyBool{name=east, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=north, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=south, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=up, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=west, clazz=class java.lang.Boolean, values=[true, false]}
 futuremc:nether_brick_wall: PropertyBool{name=east, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=north, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=south, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=up, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=west, clazz=class java.lang.Boolean, values=[true, false]}
 futuremc:netherite_block: 
+futuremc:oak_wood: PropertyEnum{name=axis, clazz=class net.minecraft.util.EnumFacing$Axis, values=[x, y, z]}
 futuremc:prismarine_wall: PropertyBool{name=east, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=north, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=south, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=up, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=west, clazz=class java.lang.Boolean, values=[true, false]}
 futuremc:red_nether_brick_wall: PropertyBool{name=east, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=north, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=south, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=up, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=west, clazz=class java.lang.Boolean, values=[true, false]}
 futuremc:red_sandstone_wall: PropertyBool{name=east, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=north, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=south, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=up, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=west, clazz=class java.lang.Boolean, values=[true, false]}
@@ -2288,8 +2294,21 @@ futuremc:soul_soil:
 futuremc:spruce_standing_sign: PropertyInteger{name=rotation, clazz=class java.lang.Integer, values=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]}
 futuremc:spruce_trapdoor: PropertyDirection{name=facing, clazz=class net.minecraft.util.EnumFacing, values=[north, south, west, east]}, PropertyEnum{name=half, clazz=class net.minecraft.block.BlockTrapDoor$DoorHalf, values=[top, bottom]}, PropertyBool{name=open, clazz=class java.lang.Boolean, values=[true, false]}
 futuremc:spruce_wall_sign: PropertyDirection{name=facing, clazz=class net.minecraft.util.EnumFacing, values=[north, south, west, east]}
+futuremc:spruce_wood: PropertyEnum{name=axis, clazz=class net.minecraft.util.EnumFacing$Axis, values=[x, y, z]}
 futuremc:stone_brick_wall: PropertyBool{name=east, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=north, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=south, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=up, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=west, clazz=class java.lang.Boolean, values=[true, false]}
 futuremc:stonecutter: PropertyDirection{name=facing, clazz=class net.minecraft.util.EnumFacing, values=[north, south, west, east]}
+futuremc:stripped_acacia_log: PropertyEnum{name=axis, clazz=class net.minecraft.block.BlockLog$EnumAxis, values=[x, y, z, none]}
+futuremc:stripped_acacia_wood: PropertyEnum{name=axis, clazz=class net.minecraft.util.EnumFacing$Axis, values=[x, y, z]}
+futuremc:stripped_birch_log: PropertyEnum{name=axis, clazz=class net.minecraft.block.BlockLog$EnumAxis, values=[x, y, z, none]}
+futuremc:stripped_birch_wood: PropertyEnum{name=axis, clazz=class net.minecraft.util.EnumFacing$Axis, values=[x, y, z]}
+futuremc:stripped_dark_oak_log: PropertyEnum{name=axis, clazz=class net.minecraft.block.BlockLog$EnumAxis, values=[x, y, z, none]}
+futuremc:stripped_dark_oak_wood: PropertyEnum{name=axis, clazz=class net.minecraft.util.EnumFacing$Axis, values=[x, y, z]}
+futuremc:stripped_jungle_log: PropertyEnum{name=axis, clazz=class net.minecraft.block.BlockLog$EnumAxis, values=[x, y, z, none]}
+futuremc:stripped_jungle_wood: PropertyEnum{name=axis, clazz=class net.minecraft.util.EnumFacing$Axis, values=[x, y, z]}
+futuremc:stripped_oak_log: PropertyEnum{name=axis, clazz=class net.minecraft.block.BlockLog$EnumAxis, values=[x, y, z, none]}
+futuremc:stripped_oak_wood: PropertyEnum{name=axis, clazz=class net.minecraft.util.EnumFacing$Axis, values=[x, y, z]}
+futuremc:stripped_spruce_log: PropertyEnum{name=axis, clazz=class net.minecraft.block.BlockLog$EnumAxis, values=[x, y, z, none]}
+futuremc:stripped_spruce_wood: PropertyEnum{name=axis, clazz=class net.minecraft.util.EnumFacing$Axis, values=[x, y, z]}
 futuremc:wither_rose: 
 golems:golem_head: PropertyDirection{name=facing, clazz=class net.minecraft.util.EnumFacing, values=[north, south, west, east]}
 golems:light_provider_full: PropertyInteger{name=light, clazz=class java.lang.Integer, values=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]}
@@ -4594,12 +4613,6 @@ rats:ratlantis_portal:
 rats:rattrap: PropertyDirection{name=facing, clazz=class net.minecraft.util.EnumFacing, values=[north, south, west, east]}
 rats:upgrade_combiner: 
 rats:upgrade_separator: 
-reccomplex:generic_solid: PropertyInteger{name=type, clazz=class java.lang.Integer, values=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]}
-reccomplex:generic_space: PropertyInteger{name=type, clazz=class java.lang.Integer, values=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]}, PropertyBool{name=visible, clazz=class java.lang.Boolean, values=[true, false]}
-reccomplex:maze_generator: 
-reccomplex:spawn_script: 
-reccomplex:structure_generator: 
-reccomplex:weighted_command_block: 
 rustic:ale_wort: PropertyInteger{name=level, clazz=class java.lang.Integer, values=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]}
 rustic:aloe_vera: PropertyInteger{name=age, clazz=class java.lang.Integer, values=[0, 1, 2, 3]}
 rustic:andesite_pillar: PropertyEnum{name=axis, clazz=class net.minecraft.util.EnumFacing$Axis, values=[x, y, z]}
@@ -4801,6 +4814,7 @@ rusticcompat:chair_stalagnate: PropertyDirection{name=facing, clazz=class net.mi
 rusticcompat:chair_tenebra: PropertyDirection{name=facing, clazz=class net.minecraft.util.EnumFacing, values=[north, south, west, east]}
 rusticcompat:chair_white_painted: PropertyDirection{name=facing, clazz=class net.minecraft.util.EnumFacing, values=[north, south, west, east]}
 rusticcompat:chair_white_stained: PropertyDirection{name=facing, clazz=class net.minecraft.util.EnumFacing, values=[north, south, west, east]}
+rusticcompat:chair_wyrmwood: PropertyDirection{name=facing, clazz=class net.minecraft.util.EnumFacing, values=[north, south, west, east]}
 rusticcompat:chair_yellow_painted: PropertyDirection{name=facing, clazz=class net.minecraft.util.EnumFacing, values=[north, south, west, east]}
 rusticcompat:chair_yellow_stained: PropertyDirection{name=facing, clazz=class net.minecraft.util.EnumFacing, values=[north, south, west, east]}
 rusticcompat:table_black_painted: PropertyBool{name=ne, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=nw, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=se, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=sw, clazz=class java.lang.Boolean, values=[true, false]}
@@ -4838,12 +4852,14 @@ rusticcompat:table_stalagnate: PropertyBool{name=ne, clazz=class java.lang.Boole
 rusticcompat:table_tenebra: PropertyBool{name=ne, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=nw, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=se, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=sw, clazz=class java.lang.Boolean, values=[true, false]}
 rusticcompat:table_white_painted: PropertyBool{name=ne, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=nw, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=se, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=sw, clazz=class java.lang.Boolean, values=[true, false]}
 rusticcompat:table_white_stained: PropertyBool{name=ne, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=nw, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=se, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=sw, clazz=class java.lang.Boolean, values=[true, false]}
+rusticcompat:table_wyrmwood: PropertyBool{name=ne, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=nw, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=se, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=sw, clazz=class java.lang.Boolean, values=[true, false]}
 rusticcompat:table_yellow_painted: PropertyBool{name=ne, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=nw, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=se, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=sw, clazz=class java.lang.Boolean, values=[true, false]}
 rusticcompat:table_yellow_stained: PropertyBool{name=ne, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=nw, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=se, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=sw, clazz=class java.lang.Boolean, values=[true, false]}
 scalinghealth:crystalore: 
 somanyenchantments:frostedicetemp: PropertyInteger{name=age, clazz=class java.lang.Integer, values=[0, 1, 2, 3]}
 somanyenchantments:magmatemp: PropertyInteger{name=age, clazz=class java.lang.Integer, values=[0, 1, 2, 3]}
 spellarchives:spell_archive: PropertyInteger{name=books, clazz=class java.lang.Integer, values=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]}, PropertyDirection{name=facing, clazz=class net.minecraft.util.EnumFacing, values=[north, south, west, east]}
+spellbundle:conjured_bramble: PropertyBool{name=down, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=east, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=north, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=south, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=up, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=west, clazz=class java.lang.Boolean, values=[true, false]}
 spookybiomes:bloodied_dirt: 
 spookybiomes:bloodied_grass: PropertyBool{name=snowy, clazz=class java.lang.Boolean, values=[true, false]}
 spookybiomes:bloodwood_door: PropertyDirection{name=facing, clazz=class net.minecraft.util.EnumFacing, values=[north, south, west, east]}, PropertyEnum{name=half, clazz=class net.minecraft.block.BlockDoor$EnumDoorHalf, values=[upper, lower]}, PropertyEnum{name=hinge, clazz=class net.minecraft.block.BlockDoor$EnumHingePosition, values=[left, right]}, PropertyBool{name=open, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=powered, clazz=class java.lang.Boolean, values=[true, false]}
@@ -4979,6 +4995,70 @@ structurize:blocktimberframe_spruce_onecrossedrl: PropertyEnum{name=axis, clazz=
 structurize:blocktimberframe_spruce_plain: PropertyEnum{name=axis, clazz=class net.minecraft.util.EnumFacing$Axis, values=[x, y, z]}
 structurize:blocktimberframe_spruce_sideframed: PropertyEnum{name=axis, clazz=class net.minecraft.util.EnumFacing$Axis, values=[x, y, z]}
 structurize:multiblock: 
+stygian:endacid: PropertyInteger{name=level, clazz=class java.lang.Integer, values=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]}
+stygian:endaciddeadbush: 
+stygian:endastrodoor: PropertyDirection{name=facing, clazz=class net.minecraft.util.EnumFacing, values=[north, south, west, east]}, PropertyEnum{name=half, clazz=class net.minecraft.block.BlockDoor$EnumDoorHalf, values=[upper, lower]}, PropertyEnum{name=hinge, clazz=class net.minecraft.block.BlockDoor$EnumHingePosition, values=[left, right]}, PropertyBool{name=open, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=powered, clazz=class java.lang.Boolean, values=[true, false]}
+stygian:endastrofence: PropertyBool{name=east, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=north, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=south, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=west, clazz=class java.lang.Boolean, values=[true, false]}
+stygian:endastrofencegate: PropertyDirection{name=facing, clazz=class net.minecraft.util.EnumFacing, values=[north, south, west, east]}, PropertyBool{name=in_wall, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=open, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=powered, clazz=class java.lang.Boolean, values=[true, false]}
+stygian:endastroleaves: PropertyBool{name=check_decay, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=decayable, clazz=class java.lang.Boolean, values=[true, false]}
+stygian:endastrolog: PropertyEnum{name=axis, clazz=class net.minecraft.util.EnumFacing$Axis, values=[x, y, z]}
+stygian:endastroplanks: 
+stygian:endastroplanksslab: PropertyEnum{name=half, clazz=class net.minecraft.block.BlockSlab$EnumBlockHalf, values=[top, bottom]}, PropertyEnum{name=variant, clazz=class fluke.stygian.block.BlockEndAstroPlanksSlab$Variant, values=[DEFAULT]}
+stygian:endastroplanksslab_double: PropertyEnum{name=variant, clazz=class fluke.stygian.block.BlockEndAstroPlanksSlab$Variant, values=[DEFAULT]}
+stygian:endastrosapling: PropertyInteger{name=stage, clazz=class java.lang.Integer, values=[0, 1]}
+stygian:endastrostairs: PropertyDirection{name=facing, clazz=class net.minecraft.util.EnumFacing, values=[north, south, west, east]}, PropertyEnum{name=half, clazz=class net.minecraft.block.BlockStairs$EnumHalf, values=[top, bottom]}, PropertyEnum{name=shape, clazz=class net.minecraft.block.BlockStairs$EnumShape, values=[straight, inner_left, inner_right, outer_left, outer_right]}
+stygian:endbluecactus: PropertyInteger{name=age, clazz=class java.lang.Integer, values=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]}
+stygian:endcactus: PropertyInteger{name=age, clazz=class java.lang.Integer, values=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]}
+stygian:endcanopysapling: PropertyInteger{name=stage, clazz=class java.lang.Integer, values=[0, 1]}
+stygian:endcell: 
+stygian:enddeadbush: 
+stygian:enddeadcoalore: 
+stygian:enddeadcobblestone: 
+stygian:enddeaddirt: 
+stygian:enddeadgrass: 
+stygian:enddeadhangingroot: 
+stygian:enddeadstone: 
+stygian:enddeadstonebrick: 
+stygian:enddoor: PropertyDirection{name=facing, clazz=class net.minecraft.util.EnumFacing, values=[north, south, west, east]}, PropertyEnum{name=half, clazz=class net.minecraft.block.BlockDoor$EnumDoorHalf, values=[upper, lower]}, PropertyEnum{name=hinge, clazz=class net.minecraft.block.BlockDoor$EnumHingePosition, values=[left, right]}, PropertyBool{name=open, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=powered, clazz=class java.lang.Boolean, values=[true, false]}
+stygian:enddragonorchid: 
+stygian:endfence: PropertyBool{name=east, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=north, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=south, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=west, clazz=class java.lang.Boolean, values=[true, false]}
+stygian:endfencegate: PropertyDirection{name=facing, clazz=class net.minecraft.util.EnumFacing, values=[north, south, west, east]}, PropertyBool{name=in_wall, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=open, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=powered, clazz=class java.lang.Boolean, values=[true, false]}
+stygian:endglow: 
+stygian:endgrass: 
+stygian:endleaves: PropertyBool{name=check_decay, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=decayable, clazz=class java.lang.Boolean, values=[true, false]}
+stygian:endlightflower: 
+stygian:endlog: 
+stygian:endlogstairs: PropertyDirection{name=facing, clazz=class net.minecraft.util.EnumFacing, values=[north, south, west, east]}, PropertyEnum{name=half, clazz=class net.minecraft.block.BlockStairs$EnumHalf, values=[top, bottom]}, PropertyEnum{name=shape, clazz=class net.minecraft.block.BlockStairs$EnumShape, values=[straight, inner_left, inner_right, outer_left, outer_right]}
+stygian:endlunargrass: 
+stygian:endlunartallgrass: 
+stygian:endmagma: 
+stygian:endmoonrock: 
+stygian:endmoonshine: 
+stygian:endobsidian: 
+stygian:endobsidianbrick: 
+stygian:endplanks: 
+stygian:endplanksslab: PropertyEnum{name=half, clazz=class net.minecraft.block.BlockSlab$EnumBlockHalf, values=[top, bottom]}, PropertyEnum{name=variant, clazz=class fluke.stygian.block.BlockEndPlanksSlab$Variant, values=[DEFAULT]}
+stygian:endplanksslab_double: PropertyEnum{name=variant, clazz=class fluke.stygian.block.BlockEndPlanksSlab$Variant, values=[DEFAULT]}
+stygian:endpolishedmoonrock: 
+stygian:endsand: 
+stygian:endshiren: 
+stygian:endsmallcanopysapling: PropertyInteger{name=stage, clazz=class java.lang.Integer, values=[0, 1]}
+stygian:endsnarebells: 
+stygian:endsnaregrass: 
+stygian:endsnaretallgrass: 
+stygian:endtallgrass: 
+stygian:endvine: PropertyBool{name=east, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=north, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=south, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=up, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=west, clazz=class java.lang.Boolean, values=[true, false]}
+stygian:endviscousdoor: PropertyDirection{name=facing, clazz=class net.minecraft.util.EnumFacing, values=[north, south, west, east]}, PropertyEnum{name=half, clazz=class net.minecraft.block.BlockDoor$EnumDoorHalf, values=[upper, lower]}, PropertyEnum{name=hinge, clazz=class net.minecraft.block.BlockDoor$EnumHingePosition, values=[left, right]}, PropertyBool{name=open, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=powered, clazz=class java.lang.Boolean, values=[true, false]}
+stygian:endviscousfence: PropertyBool{name=east, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=north, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=south, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=west, clazz=class java.lang.Boolean, values=[true, false]}
+stygian:endviscousfencegate: PropertyDirection{name=facing, clazz=class net.minecraft.util.EnumFacing, values=[north, south, west, east]}, PropertyBool{name=in_wall, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=open, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=powered, clazz=class java.lang.Boolean, values=[true, false]}
+stygian:endviscousleaves: PropertyBool{name=check_decay, clazz=class java.lang.Boolean, values=[true, false]}, PropertyBool{name=decayable, clazz=class java.lang.Boolean, values=[true, false]}
+stygian:endviscouslog: PropertyEnum{name=axis, clazz=class net.minecraft.util.EnumFacing$Axis, values=[x, y, z]}
+stygian:endviscousplanks: 
+stygian:endviscousplanksslab: PropertyEnum{name=half, clazz=class net.minecraft.block.BlockSlab$EnumBlockHalf, values=[top, bottom]}, PropertyEnum{name=variant, clazz=class fluke.stygian.block.BlockEndViscousPlanksSlab$Variant, values=[DEFAULT]}
+stygian:endviscousplanksslab_double: PropertyEnum{name=variant, clazz=class fluke.stygian.block.BlockEndViscousPlanksSlab$Variant, values=[DEFAULT]}
+stygian:endviscoussapling: PropertyInteger{name=stage, clazz=class java.lang.Integer, values=[0, 1]}
+stygian:endviscousstairs: PropertyDirection{name=facing, clazz=class net.minecraft.util.EnumFacing, values=[north, south, west, east]}, PropertyEnum{name=half, clazz=class net.minecraft.block.BlockStairs$EnumHalf, values=[top, bottom]}, PropertyEnum{name=shape, clazz=class net.minecraft.block.BlockStairs$EnumShape, values=[straight, inner_left, inner_right, outer_left, outer_right]}
+stygian:endwyrmroots: 
 suikehappyghast:dried_ghast: PropertyDirection{name=facing, clazz=class net.minecraft.util.EnumFacing, values=[north, south, west, east]}, PropertyInteger{name=hydration, clazz=class java.lang.Integer, values=[0, 1, 2, 3]}
 switchbow:arrowdispenser: PropertyDirection{name=facing, clazz=class net.minecraft.util.EnumFacing, values=[north, south, west, east]}, PropertyBool{name=triggered, clazz=class java.lang.Boolean, values=[true, false]}
 switchbow:minilight: 
