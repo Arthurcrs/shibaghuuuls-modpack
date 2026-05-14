@@ -510,6 +510,7 @@ mod_lavacow:entities/ptera_desert
 advanced-fishing:gameplay/fishing_ocean
 ancientwarfare:chests/good
 defiledlands:entities/the_mourner
+quark:chests/archaeologist
 minecraft:entities/rabbit
 cqrepoured:entities/bosses/slime_frog
 cqrepoured:entities/bosses/dragon_nether

@@ -294,6 +294,7 @@ oe:turtle_master_long
 oe:turtle_master_strong
 oe:descent
 oe:seeping
+fireresistancetiers:strong_fire_resistance
 mod_lavacow:corrosive
 mod_lavacow:strong_corrosive
 mod_lavacow:long_corrosive

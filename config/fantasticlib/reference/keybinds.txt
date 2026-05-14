@@ -86,12 +86,12 @@ key.reveal
 AstikorCarts
 key.astikorcarts.desc
 
-Baubles
-keybind.baublesinventory
-
 Block Drops Tweaker
 key.blockdropstweaker.reloadblockdrops
 key.blockdropstweaker.saveblockdrops
+
+Bubbles
+keybind.baublesinventory
 
 Carbon Config Library
 key.carbon_config.dep
@@ -153,6 +153,10 @@ key.ebwizardry.spell_3
 
 Extra Alchemy
 Toggle Magnetism Suppressor
+
+FPS Reducer
+FpsReducer.key.guiOpen
+FpsReducer.key.forceIdle
 
 FancyMenu
 Reload Menu | CTRL + ALT + 
@@ -225,7 +229,7 @@ key.music_player_toggle
 Optifine
 of.key.zoom
 
-Quark
+Quark: RotN Edition
 quark.keybind.changeHotbar
 quark.emote.cheer
 quark.emote.clap
