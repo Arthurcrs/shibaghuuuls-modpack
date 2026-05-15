@@ -10,8 +10,8 @@ wizardry_tales:grant_book_on_first_join
 arcaneapprentices:subsets/dark_oak
 xreliquary:inject/chests/igloo_chest
 specialmobs:entities/witherskeleton/ninja
-raids:entities/pillager
 specialmobs:entities/zombie/giant
+raids:entities/pillager
 mod_lavacow:entities/scarecrow_straw
 ancientspellcraft:inject/as_wizard_tower
 ancientwarfare:chests/kong
@@ -27,8 +27,8 @@ specialmobs:entities/witherskeleton/gatling
 minecraft:entities/ghast
 minecraft:entities/zombie
 explorercraft:inject/stronghold_crossing
-xreliquary:inject/entities/bat
 specialmobs:entities/silverfish/tough
+xreliquary:inject/entities/bat
 totf:blocks/bush_crate
 specialmobs:entities/pigzombie/knight
 arcaneapprentices:adventure/adventure_short_duration
@@ -115,9 +115,9 @@ golems:entities/golem_stained_clay/3
 cqrepoured:chests/material
 golems:entities/golem_stained_clay/4
 ancientwarfare:chests/citizen_medium_value
-xreliquary:inject/chests/stronghold_corridor
 specialmobs:entities/spider/poison
 specialmobs:entities/ghast/baby
+xreliquary:inject/chests/stronghold_corridor
 golems:entities/golem_stained_clay/5
 golems:entities/golem_stained_clay/6
 golems:entities/golem_stained_clay/7
@@ -580,8 +580,8 @@ ancientwarfare:chests/compat/rustic/rustic_village_farm_olive
 minecraft:chests/desert_pyramid
 golems:entities/golem_quartz
 golems:entities/golem_redstone_lamp/lit
-xreliquary:inject/chests/jungle_temple
 specialmobs:entities/enderman/mirage
+xreliquary:inject/chests/jungle_temple
 advanced-fishing:gameplay/fishing_lava_nether
 arcaneapprentices:adventure/gather_medium_duration_pickaxe
 mod_lavacow:entities/amber_scarab
@@ -594,8 +594,8 @@ iceandfire:siren
 specialmobs:entities/creeper/dark
 mutantbeasts:entities/spider_pig
 mod_lavacow:entities/forsaken
-xreliquary:inject/chests/stronghold_crossing
 specialmobs:entities/zombie/plague
+xreliquary:inject/chests/stronghold_crossing
 minecraft:entities/sheep/white
 ancientwarfare:chests/witchbane
 exoticbirds:birds/bluejay

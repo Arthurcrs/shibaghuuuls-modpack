@@ -116,23 +116,6 @@ key.clienttweaks.hide_offhand_item
 CosmeticArmorReworked
 cos.key.opencosarmorinventory
 
-Crafting Tweaks
-key.craftingtweaks.balance
-key.craftingtweaks.clear
-key.craftingtweaks.compressAll
-key.craftingtweaks.compressOne
-key.craftingtweaks.compressStack
-key.craftingtweaks.decompressAll
-key.craftingtweaks.decompressOne
-key.craftingtweaks.decompressStack
-key.craftingtweaks.force_clear
-key.craftingtweaks.refill_last
-key.craftingtweaks.refill_last_stack
-key.craftingtweaks.rotate
-key.craftingtweaks.spread
-key.craftingtweaks.toggleButtons
-key.craftingtweaks.rotate_counter_clockwise
-
 CraftingCraft
 key.craftingcraft.portable_crafting
 
@@ -363,6 +346,23 @@ gui.xaero_map_zoom_out
 YDMs Weaponmaster
 key.weaponmaster_ydm.opengui
 
-§eHappyGhast
+dan's Crafting Tweaks
+key.craftingtweaks.balance
+key.craftingtweaks.clear
+key.craftingtweaks.compressAll
+key.craftingtweaks.compressOne
+key.craftingtweaks.compressStack
+key.craftingtweaks.decompressAll
+key.craftingtweaks.decompressOne
+key.craftingtweaks.decompressStack
+key.craftingtweaks.force_clear
+key.craftingtweaks.refill_last
+key.craftingtweaks.refill_last_stack
+key.craftingtweaks.rotate
+key.craftingtweaks.rotate_counter_clockwise
+key.craftingtweaks.spread
+key.craftingtweaks.toggleButtons
+
+Â§eHappyGhast
 key.suikehappyghast.descend
 

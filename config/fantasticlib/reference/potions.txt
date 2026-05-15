@@ -194,11 +194,13 @@ mod_lavacow:ravens_grace
 ee:corrupted
 ee:entrapped
 ee:the_madness
-mimicfish:chestsight
 mowziesmobs:suns_blessing
 mowziesmobs:geomancy
 mowziesmobs:frozen
 mowziesmobs:poison_resist
+rats:synesthesia
+rats:plague
+mimicfish:chestsight
 xreliquary:flight_potion
 xreliquary:pacification_potion
 xreliquary:cure_potion
@@ -206,8 +208,6 @@ radenchants:insomnia
 raids:hero_of_the_village
 raids:bad_omen
 raids:raid_omen
-rats:synesthesia
-rats:plague
 scalinghealth:bandaged
 switchbow:freeze
 switchbow:love

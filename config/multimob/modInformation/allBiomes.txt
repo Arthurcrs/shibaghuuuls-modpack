@@ -212,6 +212,7 @@ environs:canyon
 environs:icy_hills
 environs:cold_pine_taiga
 environs:cold_pine_taiga_m
+rats:ratlantis
 nt:aegean_archipelago
 nt:alium_meadow
 nt:autumn_forest
@@ -326,7 +327,6 @@ traverse:desert_shrubland
 traverse:thicket
 traverse:arid_highland
 traverse:rocky_plains
-rats:ratlantis
 spookybiomes:sorbus_forest
 spookybiomes:ghostly_forest
 spookybiomes:seeping_forest
