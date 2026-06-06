@@ -7,9 +7,6 @@ minecraft:nitwit
 iceandfire:fisherman
 iceandfire:craftsman
 iceandfire:shaman
-chococraftplus:stablehand
-rats:pet_shop_owner
-rats:plague_doctor
 primitivemobs:miner
 primitivemobs:merchant
 primitivemobs:fakemerchant

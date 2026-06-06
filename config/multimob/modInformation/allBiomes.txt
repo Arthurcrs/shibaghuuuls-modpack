@@ -212,7 +212,6 @@ environs:canyon
 environs:icy_hills
 environs:cold_pine_taiga
 environs:cold_pine_taiga_m
-rats:ratlantis
 nt:aegean_archipelago
 nt:alium_meadow
 nt:autumn_forest

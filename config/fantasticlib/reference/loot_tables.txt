@@ -67,8 +67,8 @@ defiledlands:chests/dungeon_defiled
 arcaneapprentices:adventure/gather_medium_duration
 golems:entities/golem_stained_glass/7
 golems:entities/golem_stained_glass/6
-golems:entities/golem_stained_glass/9
 futuremc:entities/tropical_fish
+golems:entities/golem_stained_glass/9
 golems:entities/golem_stained_glass/8
 abyssaldepths:entities/bannerfish
 ancientwarfare:chests/empire_court
@@ -697,7 +697,6 @@ ancientwarfare:chests/ishtari
 mod_lavacow:entities/banshee
 ancientspellcraft:subsets/wand_upgrades
 arcaneapprentices:adventure/gather_short_duration_shears
-ancientwarfare:chests/compat/zawa/zawa_tannery
 xreliquary:inject/entities/cave_spider
 primitivemobs:entities/special/filch_lizard_steal
 betteranimalsplus:turkey

@@ -2638,7 +2638,7 @@
   {
     "id": "minecraft:binding_curse",
     "name": "enchantment.binding_curse",
-    "enabled": true,
+    "enabled": false,
     "hide_on_item": false,
     "hide_on_book": false,
     "rarity": "VERY_RARE",
